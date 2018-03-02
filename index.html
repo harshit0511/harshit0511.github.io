@@ -52,7 +52,7 @@
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
@@ -75,7 +75,7 @@
           <div>Experience in domains such as:</div>
           <div>1. Data Mining</div>
           <div>2. Data Visualization</div>
-          <div>3. Predictive Modelling</div>
+          <div>3. Machine Learning</div>
           <div>4. Big Data Analysis </div>
           <div>5. Image Analysis</div>
           <div>6. Text Mining/Sentiment Analysis</div>
@@ -152,11 +152,11 @@
               <div class="subheading mb-3">Master of Science (M.S.)</div>
               <div>Computer Science</div>
               <p>GPA: 3.667</p>
-              <div>Fall 2017 Courses:</div>
+              <div><b>Fall 2017 Courses:</b></div>
               <div>1. Foundations of Data Science</div>
               <div>2. Big Data Analytics</div>
               <p>3. Information Security & Privacy</p>
-              <div>Spring 2018 Courses:</div>
+              <div><b>Spring 2018 Courses:</b></div>
               <div>1. Design & Analysis of Algorithms</div>
               <div>2. Machine Learning</div>
               <p>3. Computer Vision & Scene Analytics</p>
@@ -224,17 +224,11 @@
             <li class="list-inline-item">
               <i class="devicons devicons-atom"></i>
             </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-stackoverflow"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="devicons devicons-techcrunch"></i>
-            </li>
             </li>
           </ul>
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <div><b>Proficient:</b> Python, R, PySpark, Linux, SQL, Hadoop</div>
-          <div><b>Working Knowledge:</b> D3.js, C, C++, java</div>
+          <div><b>Proficient:</b> Python, R, PySpark, Linux, Hadoop</div>
+          <div><b>Working Knowledge:</b> SQL, D3.js, C, C++, java</div>
           <div><b>Familiar:</b> Tableau, HTML, CSS, JavaScript</div>
           <div><b>Python Libraries:</b> Numpy, Pandas, Scipy, Math, Matplotlib, Statsmodels, OpenCV, Sci-kit Learn, Tensorflow, Keras</div>
           <p><b>Tools:</b> Jupyter Notebook, LaTeX, Git, Docker, SAP GUI 740, Sabrix, MDM, TriplePoint CSL, Microsoft Office</p>
@@ -269,11 +263,44 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
         <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+          <h2 class="mb-5">Projects</h2>
+          <ul class="fa-ul mb-0">
+          
+          <li>
+              <i class="fa-li fa fa-check"></i>
+              <div><b>Analyzing and predicting counter-terrorism impact in Pakistan using Drone Attacks and Global Terrorism dataset</b></div>
+              <div>Since the beginning of 2004, USA has been carrying out drone strikes in Northwestern regions of Pakistan in an effort to remove high-value terrorists. CIA has been calling them "precision strikes" and we wanted to know how "precise" these strikes have been. We wanted to find out how effective these strikes have been at eliminating terrorists. We used Terrorism Database to get an idea of how terrorism has been affected in the region.</div>
+              <div>1. Analyzed the precision of Drone Strikes every year, found massive civilian casualties and a low precision rate, devastation caused by Drone Strikes comparable to Suicide Bombings of Pakistan</div>
+              <div>2. Text Analysis on news clippings to discover high-frequency words used in the news reports of the Drone Strikes</div>
+              <div>3. SpearmanR test on correlation between Terrorist strikes and Drone Strikes, found high correlation between the two at lag of 1 day, suggesting that terrorist strikes might have been a retaliation to Drone Strikes</div>
+              <div>4. Discovered high number of Terrorist strikes that happened just after a Drone Strike, implying how badly Drone Strikes have affected Pakistan</div>
+              <p>5. Time-Series forecasting to predict the number of Drone Strikes in the coming years</p>
+              <p><b>GitHub Link: </b>https://github.com/harshit0511/Drone-Attacks-in-Pakistan</p>
+
+          </li>
+          <li>
+              <i class="fa-li fa fa-check"></i>
+              <div><b>NYPD Crime Data Analysis</b></div>
+              <div>The Crime data of NYPD ranges from 2006 to 2016 and has a record of all the Incidents that took place in New York City's 5 boroughs. PySpark and Hadoop File System was used to process the huge dataset, Python was used for forecasting and predictive analytics. We generated many interesting plots and figures to show the trend of certain crimes in certain areas.</div>
+              <div>1. Used PySpark and Hadoop in NYU High Performance Computing cluster to process big data</div>
+              <div>2. Discovered interesting patterns- high crime count on Jan 1 and least crime count during Christmas week</div>
+              <div>3. Analyzed Crime patterns across different boroughs and in different years</div>
+              <div>4. Found statistically significant correlation between Crime count and temperature on a particular day</div>
+              <div>5. Found negative correlation between Crime count and Housing prices in a particular locality</div>
+              <p>6. Built ARMA model for Time-Series forecasting to predict the crimes in coming years</p>
+              <p><b>GitHub Link: </b>https://github.com/harshit0511/NYC-Crime</p>
+          </li>
+          <li>
+              <i class="fa-li fa fa-check"></i>
+              <div><b>Document Level Assessment of Document Retrieval Systems in a Pairwise System Evaluation</b></div>
+              <p>This project was carried out during my internship which was for two months. The big task was to find out a better method to compare and evaluate Information Retrieval Systems. Significance Testing was done on the matched documents that existed between a pair of Information Retrieval Systems, to distinguish unique pairs of Information Retrieval Systems. The amount of significantly unique Information Retrieval Systems obtained from the proposed method were compared to the numbers obtained from the conventional methods to determine the efficiency of the proposed method. The data was obtained from TREC (Textual REtrieval Conference) website and R programming language was used to do analysis on the data. Based on the significantly better results yielded by the proposed method in comparison with the conventional method, a research paper was prepared and has been published in the Information Research Journal (ISSN 1368 - 1613), Vol. 22, No. 2, June 2017.</p>
+              <p><b>GitHub Link: </b>https://github.com/harshit0511/Document-Level-Assessment</p>
+          </li>
+        </ul>
+
+            
         </div>
       </section>
 
@@ -283,25 +310,25 @@
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              <div>“Document Level Assessment of Document Retrieval Systems in a Pairwise System Evaluation”</div>
+              <div><b>Document Level Assessment of Document Retrieval Systems in a Pairwise System Evaluation</b></div>
               <div>Sri Devi Ravana, Prabha Rajagopal, Harshit Srivastava, Masumeh S Taheri (2017). Information Research (ISSN 1368 - 1613), Vol. 22, No. 2, June 2017.</div>
               <p>URL: http://www.informationr.net/ir/22-2/paper752.html</p></li>
             <li>
               <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              <div>“Security in Internet of Things: Challenges, Solutions and Future Directions”</div>
+              <div><b>Security in Internet of Things: Challenges, Solutions and Future Directions</b></div>
               <div>Sathish Alampalayam Kumar, Tyler Vealey and Harshit Srivastava (2016). 49th IEEE Hawaii International Conference on System Sciences (HICSS), 2016, Koloa, HI, USA, January 5-8, 2016 (Pages 5772-5781).</div>
               <p> URL: http://ieeexplore.ieee.org/document/7427903/</p></li>
             <li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              <div>“Control Framework for Secure Cloud Computing”</div>
+              <div><b>Control Framework for Secure Cloud Computing</b></div>
               <div>Harshit Srivastava and Sathish Alampalayam Kumar (2015). Journal of Information Security, 6, 12-23. </div>
               <p>URL: http://file.scirp.org/Html/2-7800244_52951.htm</p></li>
             <li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              <div>“Research Opportunities and Challenges in Cloud Security”</div>
+              <div><b>Research Opportunities and Challenges in Cloud Security</b></div>
               <p>Harshit Srivastava (2014). 6th International Conference (ACSEICT-2014) held in Jawaharlal Nehru University, New Delhi, India. Published in Advances in Computer Science and Information Technology (ACSIT) Volume 1 Number 2, p. 13-17</p></li>
             <li>
           </ul>
