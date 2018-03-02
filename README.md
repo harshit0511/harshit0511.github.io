@@ -1,1 +1,1 @@
-# Detailed Resume of Harshit Srivastava
+https://harshit0511.github.io/
