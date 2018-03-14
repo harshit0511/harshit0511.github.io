@@ -21,7 +21,7 @@
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
+    <link href="css/resume.css" rel="stylesheet">
 
   </head>
 
@@ -155,14 +155,16 @@
               <div class="subheading mb-3">Master of Science (M.S.)</div>
               <div>Computer Science</div>
               <p>GPA: 3.667</p>
-              <div><b>Fall 2017 Courses:</b></div>
-              <div>1. Foundations of Data Science</div>
-              <div>2. Big Data Analytics</div>
-              <p>3. Information Security & Privacy</p>
-              <div><b>Spring 2018 Courses:</b></div>
-              <div>1. Design & Analysis of Algorithms</div>
-              <div>2. Machine Learning</div>
-              <p>3. Computer Vision & Scene Analytics</p>
+              <div><b>Fall 2017 Courses:</b>
+                <div>1. Foundations of Data Science</div>
+                <div>2. Big Data Analytics</div>
+                <p>3. Information Security & Privacy</p>
+              </div>
+              <div><b>Spring 2018 Courses:</b>
+                <div>1. Design & Analysis of Algorithms</div>
+                <div>2. Machine Learning</div>
+                <p>3. Computer Vision & Scene Analytics</p>
+              </div>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">Fall 2017 - Spring 2019</span>
@@ -267,75 +269,105 @@
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
-        <div class="my-auto">
-          <h2 class="mb-5">Projects</h2>
-          <ul class="fa-ul mb-0">
-          
-          <li>
-              <i class="fa-li fa fa-check"></i>
-              <div><b>Analyzing and predicting counter-terrorism impact in Pakistan using Drone Attacks and Global Terrorism dataset</b></div>
-              <div>Since the beginning of 2004, USA has been carrying out drone strikes in Northwestern regions of Pakistan in an effort to remove high-value terrorists. CIA has been calling them "precision strikes" and we wanted to know how "precise" these strikes have been. We wanted to find out how effective these strikes have been at eliminating terrorists. We used Terrorism Database to get an idea of how terrorism has been affected in the region.</div>
-              <div>1. Analyzed the precision of Drone Strikes every year, found massive civilian casualties and a low precision rate, devastation caused by Drone Strikes comparable to Suicide Bombings of Pakistan</div>
-              <div>2. Text Analysis on news clippings to discover high-frequency words used in the news reports of the Drone Strikes</div>
-              <div>3. SpearmanR test on correlation between Terrorist strikes and Drone Strikes, found high correlation between the two at lag of 1 day, suggesting that terrorist strikes might have been a retaliation to Drone Strikes</div>
-              <div>4. Discovered high number of Terrorist strikes that happened just after a Drone Strike, implying how badly Drone Strikes have affected Pakistan</div>
-              <p>5. Time-Series forecasting to predict the number of Drone Strikes in the coming years</p>
-              <p><b>GitHub Link: </b>https://github.com/harshit0511/Drone-Attacks-in-Pakistan</p>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects" class="bg-light-gray">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading">Projects</h2>
+          </div>
+            <div class="row text-center">
+              <div class="col-md6 col-sm-6 portfolio-item">
+                        <a href="https://github.com/harshit0511/Drone-Attacks-in-Pakistan" class="portfolio-link" data-toggle="modal">
+                            <img class="rounded-circle proj_img mb-3" src="img/drone_big.jpg" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <a href = "https://github.com/harshit0511/Document-Level-Assessment"><h4>Analyzing and predicting counter-terrorism impact in Pakistan</h4> </a>
+                            <p><b>Foundations of Data Science by Prof. Rumi Chunara</b></p>
+                            <div>1. Analyzed the precision of Drone Strikes every year, found massive civilian casualties and a low precision rate, devastation caused by Drone Strikes comparable to Suicide Bombings of Pakistan</div>
+                            <div>2. Text Analysis on news clippings to discover high-frequency words used in the news reports of the Drone Strikes</div>
+                            <div>3. SpearmanR test on correlation between Terrorist strikes and Drone Strikes, found high correlation between the two at lag of 1 day, suggesting that terrorist strikes might have been a retaliation to Drone Strikes</div>
+                            <div>4. Discovered high number of Terrorist strikes that happened just after a Drone Strike, implying how badly Drone Strikes have affected Pakistan</div>
+                            <div>5. Time-Series forecasting to predict the number of Drone Strikes in the coming years</div>
 
-          </li>
-          <li>
-              <i class="fa-li fa fa-check"></i>
-              <div><b>NYPD Crime Data Analysis</b></div>
-              <div>The Crime data of NYPD ranges from 2006 to 2016 and has a record of all the Incidents that took place in New York City's 5 boroughs. PySpark and Hadoop File System was used to process the huge dataset, Python was used for forecasting and predictive analytics. We generated many interesting plots and figures to show the trend of certain crimes in certain areas.</div>
-              <div>1. Used PySpark and Hadoop in NYU High Performance Computing cluster to process big data</div>
-              <div>2. Discovered interesting patterns- high crime count on Jan 1 and least crime count during Christmas week</div>
-              <div>3. Analyzed Crime patterns across different boroughs and in different years</div>
-              <div>4. Found statistically significant correlation between Crime count and temperature on a particular day</div>
-              <div>5. Found negative correlation between Crime count and Housing prices in a particular locality</div>
-              <p>6. Built ARMA model for Time-Series forecasting to predict the crimes in coming years</p>
-              <p><b>GitHub Link: </b>https://github.com/harshit0511/NYC-Crime</p>
-          </li>
-          <li>
-              <i class="fa-li fa fa-check"></i>
-              <div><b>Document Level Assessment of Document Retrieval Systems in a Pairwise System Evaluation</b></div>
-              <p>This project was carried out during my internship which was for two months. The big task was to find out a better method to compare and evaluate Information Retrieval Systems. Significance Testing was done on the matched documents that existed between a pair of Information Retrieval Systems, to distinguish unique pairs of Information Retrieval Systems. The amount of significantly unique Information Retrieval Systems obtained from the proposed method were compared to the numbers obtained from the conventional methods to determine the efficiency of the proposed method. The data was obtained from TREC (Textual REtrieval Conference) website and R programming language was used to do analysis on the data. Based on the significantly better results yielded by the proposed method in comparison with the conventional method, a research paper was prepared and has been published in the Information Research Journal (ISSN 1368 - 1613), Vol. 22, No. 2, June 2017.</p>
-              <p><b>GitHub Link: </b>https://github.com/harshit0511/Document-Level-Assessment</p>
-          </li>
-        </ul>
+                        </div>
 
-            
+              </div>
+
+              <div class="col-md-6 col-sm-6 portfolio-item">
+                        <a href="https://github.com/harshit0511/NYC-Crime" class="portfolio-link" data-toggle="modal">
+                            <img class="rounded-circle proj_img mb-3" src="img/crime.jpg" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <a href = "https://github.com/harshit0511/Document-Level-Assessment"><h4>NYPD Crime Data Analysis</h4></a>
+                            <p><b>Big Data Analytics by Prof. Claudio Silva</b></p>
+                            <div>1. Used PySpark and Hadoop in NYU High Performance Computing cluster to process big data</div>
+                            <div>2. Discovered interesting patterns- high crime count on Jan 1 and least crime count during Christmas week</div>
+                            <div>3. Analyzed Crime patterns across different boroughs and in different years</div>
+                            <div>4. Found statistically significant correlation between Crime count and temperature on a particular day</div>
+                            <div>5. Found negative correlation between Crime count and Housing prices in a particular locality</div>
+                            <p>6. Built ARMA model for Time-Series forecasting to predict the crimes in coming years</p>
+
+                        </div>
+
+              </div>
+              <div class="col-md-6 col-sm-6 portfolio-item">
+                        <a href="https://github.com/harshit0511/Document-Level-Assessment" class="portfolio-link" data-toggle="modal">
+                            <img class="rounded-circle proj_img mb-3" src="img/imageUM.jpg" alt="">
+                        </a>
+                        <div class="portfolio-caption">
+                            <a href = "https://github.com/harshit0511/Document-Level-Assessment"><h4>Document Level Assessment of Information Retrieval Systems</h4></a>
+                            <p><b>Rsearch Internship under Dr. Sri Devi Ravana</b></p>
+                            <p>This project was carried out during my internship which was for two months. The big task was to find out a better method to compare and evaluate Information Retrieval Systems. Significance Testing was done on the matched documents that existed between a pair of Information Retrieval Systems, to distinguish unique pairs of Information Retrieval Systems. The amount of significantly unique Information Retrieval Systems obtained from the proposed method were compared to the numbers obtained from the conventional methods to determine the efficiency of the proposed method. The data was obtained from TREC (Textual REtrieval Conference) website and R programming language was used to do analysis on the data. Based on the significantly better results yielded by the proposed method in comparison with the conventional method, a research paper was prepared and has been published in the Information Research Journal (ISSN 1368 - 1613), Vol. 22, No. 2, June 2017.</p>
+
+                        </div>
+
+              </div>
+
         </div>
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="publications">
-        <div class="my-auto">
-          <h2 class="mb-5">Publications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              <div><b>Document Level Assessment of Document Retrieval Systems in a Pairwise System Evaluation</b></div>
-              <div>Sri Devi Ravana, Prabha Rajagopal, Harshit Srivastava, Masumeh S Taheri (2017). Information Research (ISSN 1368 - 1613), Vol. 22, No. 2, June 2017.</div>
-              <p>URL: http://www.informationr.net/ir/22-2/paper752.html</p></li>
-            <li>
-              <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              <div><b>Security in Internet of Things: Challenges, Solutions and Future Directions</b></div>
-              <div>Sathish Alampalayam Kumar, Tyler Vealey and Harshit Srivastava (2016). 49th IEEE Hawaii International Conference on System Sciences (HICSS), 2016, Koloa, HI, USA, January 5-8, 2016 (Pages 5772-5781).</div>
-              <p> URL: http://ieeexplore.ieee.org/document/7427903/</p></li>
-            <li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              <div><b>Control Framework for Secure Cloud Computing</b></div>
-              <div>Harshit Srivastava and Sathish Alampalayam Kumar (2015). Journal of Information Security, 6, 12-23. </div>
-              <p>URL: http://file.scirp.org/Html/2-7800244_52951.htm</p></li>
-            <li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              <div><b>Research Opportunities and Challenges in Cloud Security</b></div>
-              <p>Harshit Srivastava (2014). 6th International Conference (ACSEICT-2014) held in Jawaharlal Nehru University, New Delhi, India. Published in Advances in Computer Science and Information Technology (ACSIT) Volume 1 Number 2, p. 13-17</p></li>
-            <li>
-          </ul>
+        <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">Publications</h2>
+                  <h3 class="section-subheading text-muted">Published papers in Journals and Conferences</h3>
+              </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6">
+                      <span class="fa-stack fa-4x">
+                          <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                          <a href = "http://www.informationr.net/ir/22-2/paper752.html"> <i class="fa fa-book fa-stack-1x fa-inverse"></i></a>
+                      </span>
+                      <a href = "http://www.informationr.net/ir/22-2/paper752.html"><font color="#000080"><h4 class="service-heading">Document Level Assessment of Document Retrieval Systems in a Pairwise System Evaluation</h4></font> </a>
+                      <p><b>Journal Publication (2017)</b></p>
+                      <p class="text-muted">Sri Devi Ravana, Prabha Rajagopal, Harshit Srivastava, Masumeh S Taheri (2017). Information Research (ISSN 1368 - 1613), Vol. 22, No. 2, June 2017</p>
+          </div>
+          <div class="col-md-6">
+                              <span class="fa-stack fa-4x">
+                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                  <a href = "http://ieeexplore.ieee.org/document/7427903/"> <i class="fa fa-object-group fa-stack-1x fa-inverse"></i></a>
+                              </span>
+                              <a href = "http://ieeexplore.ieee.org/document/7427903/"><font color="#000080"><h4 class="service-heading">Security in Internet of Things: Challenges, Solutions and Future Directions</h4></font> </a>
+                              <p><b>IEEE Conference Publication (2016)</b></p>
+                              <p class="text-muted">Sathish Alampalayam Kumar, Tyler Vealey and Harshit Srivastava (2016). 49th IEEE Hawaii International Conference on System Sciences (HICSS), 2016, Koloa, HI, USA, January 5-8, 2016 (Pages 5772-5781)</p>
+          </div>
+          <div class="col-md-6">
+                              <span class="fa-stack fa-4x">
+                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                  <a href = "http://file.scirp.org/Html/2-7800244_52951.htm"> <i class="fa fa-key fa-stack-1x fa-inverse"></i></a>
+                              </span>
+                              <a href = "http://file.scirp.org/Html/2-7800244_52951.htm"><font color="#000080"><h4 class="service-heading">Control Framework for Secure Cloud Computing</h4></font> </a>
+                              <p><b>Journal Publication (2016)</b></p>
+                              <p class="text-muted">Harshit Srivastava and Sathish Alampalayam Kumar (2015). Journal of Information Security, 6, 12-23</p>
+          </div>
+          <div class="col-md-6">
+                              <span class="fa-stack fa-4x">
+                                  <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                                  <a href = "https://harshit0511.github.io/"> <i class="fa fa-cloud fa-stack-1x fa-inverse"></i></a>
+                              </span>
+                              <a href = "https://harshit0511.github.io/"><font color="#000080"><h4 class="service-heading">Research Opportunities and Challenges in Cloud Security</h4></font> </a>
+                              <p><b>University Conference Publication (2014)</b></p>
+                              <p class="text-muted">Harshit Srivastava (2014). 6th International Conference (ACSEICT-2014) held in Jawaharlal Nehru University, New Delhi, India. Published in Advances in Computer Science and Information Technology (ACSIT) Volume 1 Number 2, p. 13-17</p>
+          </div>
         </div>
       </section>
 
