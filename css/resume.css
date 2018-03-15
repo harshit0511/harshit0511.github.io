@@ -117,7 +117,8 @@ section.resume-section .resume-item .resume-date {
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
-    background-color: #E8E8E8;
+    background-color: #E5E5E5;
+    color: inherit;
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
@@ -149,6 +150,16 @@ b1 {
     max-height:100px
     width:auto;/*maintain aspect ratio*/
     max-width:420px;
+}
+
+.left_align{
+float : left;
+width : 50%;
+}
+
+.right_align{
+float : right;
+width : 50%;
 }
 
 a {
