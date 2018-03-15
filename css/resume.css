@@ -106,7 +106,7 @@ h2 {
 }
 
 section.resume-section {
-  border-bottom: 1px solid #7B68EE;
+  border-bottom: 1px solid #222222;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
 }
@@ -118,7 +118,7 @@ section.resume-section .resume-item .resume-date {
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
-    background-color: #404040;
+    background-color: #505050;
     color: rgba(255, 255, 255, 0.7);
   }
   section.resume-section .resume-item .resume-date {
