@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: #111111;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 @media (min-width: 992px) {
@@ -20,7 +20,7 @@ h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #343a40;
+  color: rgba(255, 255, 255, 0.7)
 }
 
 h1 {
@@ -83,7 +83,7 @@ h2 {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid rgba(255, 255, 255, 0.4);
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -101,6 +101,7 @@ h2 {
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
+    rgba(255, 255, 255, 0.4);
   }
 }
 
@@ -117,8 +118,8 @@ section.resume-section .resume-item .resume-date {
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
-    background-color: #E5E5E5;
-    color: inherit;
+    background-color: #404040;
+    color: rgba(255, 255, 255, 0.7);
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
@@ -167,5 +168,5 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #7B68EE;
+  color: rgba(255, 255, 255, 0.7);
 }
