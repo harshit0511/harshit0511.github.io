@@ -20,7 +20,7 @@ h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.7) !important
+  color: rgba(255, 255, 255, 0.7)
 }
 
 h1 {
@@ -118,8 +118,8 @@ section.resume-section .resume-item .resume-date {
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
-    background-color: #505050; !important
-    color: rgba(255, 255, 255, 0.7); !important
+    background-color: #505050;
+    color: rgba(255, 255, 255, 0.7);
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
@@ -164,7 +164,7 @@ width : 50%;
 }
 
 a {
-  color: #7B68EE; !important
+  color: #7B68EE;
 }
 
 a:hover, a:focus, a:active {
