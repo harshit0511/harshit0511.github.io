@@ -176,13 +176,13 @@ a:hover, a:focus, a:active {
 }
 
 .zoom {
-  transition: all 1s ease;
+  transition: all 1s ease; !important
   overflow: hidden;
 
 }
 
 .zoom:hover {
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    overflow: hidden;
-    filter: grayscale(100%);
+    overflow: hidden; !important
+    filter: grayscale(100%); !important
 }
