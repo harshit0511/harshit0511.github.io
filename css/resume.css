@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  background-color: #505050; 
+  background-color: #505050;
   color: rgba(255, 255, 255, 0.7); !important
 }
 
@@ -112,6 +112,7 @@ section.resume-section {
   padding-bottom: 5rem !important;
 }
 
+
 section.resume-section .resume-item .resume-date {
   min-width: none;
 }
@@ -152,7 +153,9 @@ b1 {
     max-height:100px
     width:auto;/*maintain aspect ratio*/
     max-width:420px;
+    overflow: hidden;
 }
+
 
 .left_align{
 float : left;
@@ -170,4 +173,16 @@ a {
 
 a:hover, a:focus, a:active {
   color: rgba(255, 255, 255, 0.7);
+}
+
+.zoom {
+  transition: all 1s ease;
+  overflow: hidden;
+
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    overflow: hidden;
+    filter: grayscale(100%);
 }
